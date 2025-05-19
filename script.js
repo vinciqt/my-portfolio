@@ -25,11 +25,6 @@ function showToast() {
     toast.style.opacity = 0;
   }, 3000);
 }
-document.getElementById('contact-form').addEventListener('submit', e => {
-  e.preventDefault();
-  alert("Thanks for your message!");
-  e.target.reset();
-});
 
 const typedText = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
