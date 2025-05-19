@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roavic Ivan M. Villanueva - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <h1>Roavic Ivan M. Villanueva</h1>
+      <nav>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <button id="theme-toggle" aria-label="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Hi, I'm <span>Roavic Ivan M. Villanueva</span></h2>
+      <p><span class="typed-text"></span><span class="cursor">|</span></p>
+      <a href="#contact" class="btn">Let's Connect</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Passionate about building secure and scalable web apps. I have experience in development and tech support, and I’m diving deep into cybersecurity.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="skill">
+      <label>HTML</label>
+      <div class="bar">
+        <div class="fill" data-width="95%"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <label>CSS</label>
+      <div class="bar">
+        <div class="fill" data-width="90%"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <label>JavaScript</label>
+      <div class="bar">
+        <div class="fill" data-width="85%"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <label>MySQL</label>
+      <div class="bar">
+        <div class="fill" data-width="70%"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <label>PHP</label>
+      <div class="bar">
+        <div class="fill" data-width="60%"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Freelance Technician</strong> (2020–Present) – Custom builds, troubleshooting, upgrades</li>
+        <li><strong>IT Intern</strong> – Ollopa Corp (UI Design), Alaminos Post Office (Encoding)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Custom PC Builder</h3>
+          <p>Tool for designing and quoting custom PC builds.</p>
+        </div>
+        <div class="card">
+          <h3>Android App</h3>
+          <p>Developed in Java using Android Studio. Focused on Day Care students learning.</p>
+        </div>
+        <div class="card">
+          <h3>Web App</h3>
+          <p>Developed Web App using Java Script, Html, Bootstrap.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tabs-section">
+  <div class="container">
+    <h2>My Background</h2>
+    <div class="tabs">
+      <button class="tab-button active" data-tab="tab-skills">
+        <i class="fas fa-tools"></i> Skills
+      </button>
+      <button class="tab-button" data-tab="tab-experience">
+        <i class="fas fa-briefcase"></i> Experience
+      </button>
+      <button class="tab-button" data-tab="tab-education">
+        <i class="fas fa-graduation-cap"></i> Education
+      </button>
+    </div>
+
+    <div class="tab-content active" id="tab-skills">
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Java, PHP, Python</li>
+        <li>MySQL, Bootstrap</li>
+        <li>UI/UX Design, Photoshop</li>
+      </ul>
+    </div>
+
+    <div class="tab-content" id="tab-experience">
+      <ul>
+        <li>Freelance Technician (2020–Present)</li>
+        <li>Intern – UI Design, Ollopa Corp (2024)</li>
+        <li>Intern – Encoder, Alaminos Post Office (2019)</li>
+      </ul>
+    </div>
+
+    <div class="tab-content" id="tab-education">
+      <ul>
+        <li>Bachelor’s Degree in IT – Laguna State Polytechnic University</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contact-form" action="https://formsubmit.co/roavicivanmateovillanueva@gmail.com" method="POST">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Roavic Ivan M. Villanueva | Made with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
